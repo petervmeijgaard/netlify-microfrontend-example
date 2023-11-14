@@ -1,0 +1,2 @@
+/first-app/*   https://petjinski-first-app.netlify.app/:splat  200
+/second-app/*  https://petjinski-second-app.netlify.app/:splat  200
