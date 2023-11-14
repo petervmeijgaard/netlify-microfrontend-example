@@ -1,2 +1,8 @@
 [dev]
 targetPort = 3002
+base = "apps/second-app"
+command = "pnpm run dev"
+
+[build]
+base = "apps/second-app"
+publish = ".next"
