@@ -1,0 +1,20 @@
+{
+	"name": "acme-mono-repo",
+	"private": true,
+	"description": "ACME mono repo",
+	"keywords": [],
+	"author": "Peter van Meijgaard <petervanmeijgaard@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"start": "turbo start",
+		"postinstall": "manypkg check",
+		"format": "prettier --check --cache ."
+	},
+	"dependencies": {
+		"@manypkg/cli": "^0.21.0",
+		"prettier": "^3.1.0",
+		"turbo": "^1.10.16"
+	}
+}
